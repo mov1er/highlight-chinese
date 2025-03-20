@@ -3,7 +3,7 @@
   "displayName": "highlight-chinese",
   "description": "highlight-chinese",
   "publisher": "mcqueen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -11,6 +11,7 @@
     "Other"
   ],
   "activationEvents": [],
+  "icon": "1.jpg",
   "main": "./extension.js",
   "contributes": {
     "commands": [{
