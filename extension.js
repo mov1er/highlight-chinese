@@ -8,7 +8,7 @@ const highlight = require('./highlight');
 function activate(context) {
 	console.log('Congratulations, your extension "highlight-chinese" is now active!');
   let disposable = vscode.commands.registerCommand('highlight-chinese.activate', () => {
-    vscode.window.showInformationMessage('汉字高亮插件已激活！');
+    // vscode.window.showInformationMessage('汉字高亮插件已激活！');
     const editor = vscode.window.activeTextEditor;
     if (editor) {
       highlight(editor);

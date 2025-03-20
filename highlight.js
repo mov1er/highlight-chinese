@@ -27,6 +27,8 @@ function highlight(editor) {
     borderRadius: '4px'
   });
 
+  vscode.window.showInformationMessage(matches.length===0? '无汉字':matches.length + ' 个汉字已高亮！');
+
   editor.setDecorations(decorationType, matches);
 }
 
